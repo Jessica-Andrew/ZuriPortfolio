@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/mobile.css" />
+</head>
+
+<div>
+    <div class="body">
+        <header class="left">
+            <div class="img-placeholder"><img src="./images/jecy.png" alt="Jessica" /></div>
+            <a href="./contact.html" class="contact-me">Contact Me</a>
+        </header>
+        <section class="middle">
+            <h1 class=" reg">Register</h1>
+            <h3 class="create">Create your personal account</h3>
+            <form action="" method="post" id="register">
+                <div>
+                    <label for="fname">First Name</label>
+                    <input type="text" id="fname" name="fname" placeholder="Jane" required>
+                </div>
+
+                <div>
+                    <label for="lname">Last Name</label>
+                    <input type="text" id="lname" name="lname" placeholder="Doe" required>
+                </div>
+
+                <div>
+                    <label for="phone">Phone Number</label>
+                    <input type="tel" id="phone" name="phone" placeholder="0811133311" required>
+                </div>
+
+                <div>
+                    <label for="gender">Gender</label>
+                    <select id="gender" name="gender">
+                        <option value="female">Female</option>
+                        <option value="male">Male</option>
+                    </select>
+                </div>
+
+                <div>
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="example@gmail.com" required>
+                </div>
+
+                <div>
+                    <label for="pass">Password</label>
+                    <input type="password" id="pass" name="pass" placeholder="********" max="12" required>
+                </div>
+
+                <div>
+                    <label for="repass">Re-enter Password</label>
+                    <input type="password" id="repass" name="repass" placeholder="********" max="12" required>
+                </div>
+
+                <div>
+                    <button class="register">Register</button>
+                </div>
+            </form>
+        </section>
+        <nav class="right">
+            <ul class="links">
+                <li><a href="./home.html">Home</a></li>
+                <li><a href="./contact.html">Contact</a></li>
+                <li><a class="active" href="#">Register</a></li>
+                <li><a href="./login.html">Login</a></li>
+            </ul>
+
+            <div class="socials">
+                <a href="https://twitter.com/Wasp_iSpy" target="_blank" title="Follow on Twitter">
+                    <img src="icons/Twitter.svg" alt="Twitter">
+                </a>
+                <a href="https://www.linkedin.com/in/onyinye-udegbunam/" target="_blank" title="Connect on LinkedIn">
+                    <img src="icons/LinkedIn.svg" alt="linkedin">
+                </a>
+                <a href="https://dribbble.com/Wasps" target="_blank" title="View Design Projects">
+                    <img src="icons/Dribble.svg" alt="Twitter">
+                </a>
+            </div>
+        </nav>
+    </div>
+    </body>
+
+</html>

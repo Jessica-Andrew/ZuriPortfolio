@@ -1,0 +1,66 @@
+@media screen and (max-width:800px) {
+
+
+
+    .body {
+        display: block;
+    }
+
+    .left a {
+        padding: 12px 20px;
+    }
+
+    .middle {
+        padding: 40px 20px;
+        max-height: auto;
+        overflow: auto;
+    }
+
+    .right {
+        position: fixed;
+        top: 0;
+        right: 0;
+        left: 0;
+        background: #FFFFFF;
+        padding: 10px 20px;
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+
+    .right .links {
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    .right .links li a {
+        margin: 0 10px;
+        font-size: 10px;
+    }
+
+
+
+
+    .right .socials {
+        position: static;
+        display: flex;
+        flex-flow: row nowrap;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 10px;
+    }
+
+    .right .socials img {
+        width: 20px;
+    }
+
+    .right .socials a {
+        margin: 0 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}

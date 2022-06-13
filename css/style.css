@@ -1,0 +1,338 @@
+/* CSS Document */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #2D2C2C;
+    margin: 0;
+    padding: 0;
+    font-family: 'Space Mono', monospace;
+}
+
+.body {
+    background-color: #2D2C2C;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: stretch;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* about section */
+.left {
+    position: relative;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 100px 0;
+    flex: 0.5;
+    height: 100vh;
+}
+
+.left .img-placeholder {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+}
+
+.left .img-placeholder img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: left;
+}
+
+.left a {
+    display: block;
+    background: #EB5E28;
+    color: white;
+    padding: 12px 100px;
+    position: relative;
+    font-weight: 700;
+}
+
+.left .contact-me:hover {
+    color: #EB5E28;
+    background-color: #FFFCF2;
+    border: 1px solid #EB5E28;
+}
+
+.middle {
+    flex: 1;
+    background: #CCC5B9;
+    padding: 40px 50px;
+    max-height: 100vh;
+    overflow: auto;
+}
+
+.middle .my-name {
+    font-size: 36px;
+    font-weight: 400;
+    color: #252422;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+.middle .subtext {
+    font-size: 20px;
+    font-weight: 400;
+    color: #252422;
+    text-align: center;
+    padding: 10px 0 10px 0;
+    margin: 0;
+}
+
+.middle p {
+    font-size: 16px;
+    color: #252422;
+}
+
+.middle .hobbies {
+    color: #252422;
+    margin: 30px 0 30px 0;
+}
+
+.middle .hobbies h3 {
+    font-size: 20px;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+}
+
+.middle .skills h3 {
+    font-size: 20px;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+}
+
+.middle .hobbies ul {
+    list-style-type: disc;
+    margin-top: 10px;
+}
+
+.middle .skills ul {
+    padding: 0;
+}
+
+.middle .skills ul li {
+    margin-bottom: 20px;
+    color: #252422;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 0;
+}
+
+.middle .skills ul p {
+    margin: 0;
+    color: #252422;
+}
+
+.progress {
+    background: rgba(255, 252, 242, 1);
+    overflow: hidden;
+}
+
+.progress div {
+    background: #EB5E28;
+    color: #EB5E28;
+    height: 7px;
+    width: 40%;
+}
+
+.right {
+    flex: 0.2;
+    background: #FFFFFF;
+    padding: 100px 20px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+    position: relative;
+}
+
+.right .links li {
+    margin: 0;
+    padding: 0;
+}
+
+.right .links {
+    margin: 0;
+    padding: 0;
+}
+
+.right .links li a {
+    color: #CCC5B9;
+    text-align: center;
+    display: block;
+    margin: 10px 0;
+    transition: all 0.3s;
+}
+
+.right .links li a:hover, .right .links a.active {
+    color: black;
+}
+
+.right .socials {
+    position: static;
+    bottom: 100px;
+    right: 0;
+    left: 0;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.right .socials a {
+    display: block;
+    margin: 10px 0;
+}
+
+/* Contact Section */
+
+.middle .scale-up {
+    font-size: 36px;
+    font-weight: 700;
+    color: #252422;
+    margin: 0;
+    padding: 0;
+}
+
+.middle .scale-up span {
+    font-size: 36px;
+    font-weight: 400;
+    color: #252422;
+    margin: 0;
+    padding: 0;
+}
+
+#contact {
+    margin-top: 40px;
+}
+
+input, select {
+    background: #FFFCF2;
+    width: 100%;
+    padding: 10px 0px 10px 30px;
+    font-family: 'Space Mono', monospace;
+    font-size: 12px;
+    font-weight: 400;
+    color: #CCC5B9;
+    border: 1px solid #FFFCF2;
+    margin-bottom: 20px;
+
+}
+
+textarea#message {
+    background: #FFFCF2;
+    width: 100%;
+    padding: 10px 0px 10px 30px;
+    font-family: 'Space Mono', monospace;
+    font-size: 12px;
+    font-weight: 400;
+    color: #CCC5B9;
+    border: 1px solid #FFFCF2;
+    margin-bottom: 20px;
+}
+
+.middle label {
+    font-size: 14px;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+    color: #252422;
+    padding: 0;
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+
+
+.middle .let-talk, .register, .login {
+    display: block;
+    background: #252422;
+    color: white;
+    padding: 12px 0;
+    width: 100%;
+    position: relative;
+    font-weight: 700;
+    outline: 0;
+    border: 0;
+}
+
+
+
+.middle .let-talk:hover, .register:hover, .login:hover {
+    background: #403D39;
+    border: 1px solid #403D39;
+    ;
+}
+
+/* Register Section */
+
+.middle .reg {
+    font-size: 36px;
+    font-weight: 700;
+    color: #252422;
+    margin: 0;
+    padding: 0;
+}
+
+.middle .create {
+    font-size: 16px;
+    font-weight: 400;
+    color: #252422;
+    margin: 0;
+    padding: 10px 0 0px 0;
+}
+
+#register {
+    margin: 40px 0;
+}
+
+/* Login Section */
+
+.middle .signin {
+    font-size: 36px;
+    font-weight: 700;
+    color: #252422;
+    margin: 0;
+    padding: 0;
+}
+
+.middle .continue {
+    font-size: 16px;
+    font-weight: 400;
+    color: #252422;
+    margin: 0;
+    padding-top: 10px;
+}
+
+#login {
+    margin: 40px 0 100px 0;
+}
+
+.middle #forgotten-password {
+    font-size: 12px;
+    font-weight: 400;
+    color: #403D39;
+    text-align: center;
+}

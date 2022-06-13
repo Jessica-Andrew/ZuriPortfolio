@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/mobile.css" />
+</head>
+
+<body>
+    <div class="body">
+        <header class="left">
+            <div class="img-placeholder"><img src="./images/jecy.png" alt="Jessica" /></div>
+            <a href="./contact.html" class="contact-me">Contact Me</a>
+        </header>
+        <!----contact form-->
+        <section class="middle">
+            <h1 class="scale-up">Let's <span><em>scale up</em></span> yourbrand together</h1>
+            <form action="" method="post" id="contact">
+                <div>
+                    <label for="fullname">Name</label>
+                    <input type="text" id="fullname" name="fullname" placeholder="Jane Doe" required>
+                </div>
+
+                <div>
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="example@gmail.com" required>
+                </div>
+
+                <div>
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" placeholder="" rows="10" cols="50"
+                        required>Enter your message</textarea>
+                </div>
+
+                <div>
+                    <button class="let-talk">Let's Talk</button>
+                </div>
+            </form>
+        </section>
+        <!---navigation-->
+        <nav class="right">
+            <ul class="links">
+                <li><a href="./home.html">Home</a></li>
+                <li><a class="active" href="#">Contact</a></li>
+                <li><a href="./register.html">Register</a></li>
+                <li><a href="./login.html">Login</a></li>
+            </ul>
+
+            <div class="socials">
+                <a href="https://twitter.com/Wasp_iSpy" target="_blank" title="Follow on Twitter">
+                    <img src="icons/Twitter.svg" alt="Twitter">
+                </a>
+                <a href="https://www.linkedin.com/in/onyinye-udegbunam/" target="_blank" title="Connect on LinkedIn">
+                    <img src="icons/LinkedIn.svg" alt="linkedin">
+                </a>
+                <a href="https://dribbble.com/Wasps" target="_blank" title="View Design Projects">
+                    <img src="icons/Dribble.svg" alt="Twitter">
+                </a>
+            </div>
+        </nav>
+    </div>
+</body>
+
+</html>

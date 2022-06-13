@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/mobile.css" />
+</head>
+
+<body>
+    <div class="body">
+        <header class="left">
+            <div class="img-placeholder"><img src="./images/jecy.png" alt="Jessica" /></div>
+            <a href="./contact.html" class="contact-me">Contact Me</a>
+        </header>
+        <!----login-->
+        <section class="middle">
+            <h1 class="signin">Login</h1>
+            <h3 class="continue">Continue from where you left off</h3>
+            <form id="login" method="post">
+                <div>
+                    <label for="fullname">Name</label>
+                    <input type="text" id="fullname" name="fullname" placeholder="Jane Doe" required>
+                </div>
+                <div>
+                    <label for="pass">Password</label>
+                    <input type="password" id="pass" name="pass" placeholder="********" max="12" required>
+                </div>
+                <div>
+                    <button class="login">Login</button>
+                </div>
+            </form>
+
+            <a href="#" id="forgotten-password">Forgotten Password?</a>
+        </section>
+        <nav class="right">
+            <ul class="links">
+                <li><a href="#">Home</a></li>
+                <li><a href="./contact.html">Contact</a></li>
+                <li><a href="./register.html">Register</a></li>
+                <li><a class="active" href="./login.html">Login</a></li>
+            </ul>
+
+            <div class="socials">
+                <a href="https://twitter.com/Wasp_iSpy" target="_blank" title="Follow on Twitter">
+                    <img src="icons/Twitter.svg" alt="Twitter">
+                </a>
+                <a href="https://www.linkedin.com/in/onyinye-udegbunam/" target="_blank" title="Connect on LinkedIn">
+                    <img src="icons/LinkedIn.svg" alt="linkedin">
+                </a>
+                <a href="https://dribbble.com/Wasps" target="_blank" title="View Design Projects">
+                    <img src="icons/Dribble.svg" alt="Twitter">
+                </a>
+            </div>
+        </nav>
+    </div>
+</body>
+
+</html>
